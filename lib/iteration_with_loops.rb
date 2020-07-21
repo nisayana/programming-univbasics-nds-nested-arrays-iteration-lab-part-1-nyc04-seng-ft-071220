@@ -7,10 +7,11 @@ def find_even_values(src)
   while inner_arr < src.count do
     integer = 0
     while integer < src[inner_arr].count do
-      if src[inner_arr][integer] % 2 == 0
+      if src[inner_arr][integer]%2==0
         p src[inner_arr][integer]
-      end
-      integer += 1
+          end
+        integer += 1
+    end
+    inner_arr += 1
   end
-  inner_arr += 1
 end
